@@ -3,11 +3,12 @@ class Player
     @health + @name.length
   end
   
-
   def initialize(name, health=100)
     @name = name.capitalize
     @health = health
   end
+  attr_reader :name
+  attr_reader :health
 
   def to_s
     "I'm #{@name} with a health of #{@health} and a score of #{score}."

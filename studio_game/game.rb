@@ -1,3 +1,5 @@
+require_relative 'player'
+
 class Game
   def initialize(title)
     @title = title
