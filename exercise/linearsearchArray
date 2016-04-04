@@ -1,0 +1,7 @@
+# for strings
+def string_linear_search(word, search_key)
+end
+
+# for array
+def array_linear_search(dictionary, word)
+end
